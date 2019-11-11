@@ -1,0 +1,6 @@
+# 08-Breakout
+
+Using Godot to recreate the classic arcade game Breakout. The in-game physics are calculated using the Godot game engine. I used various scripts to create the effect of balls breaking tiles and increasing the player's score. The player has three lives, and one life is lost each time the player has lost all the balls. There is also one powerup that allows the player to create two balls.
+
+
+Sprites were a courtesy of kenney.nl
