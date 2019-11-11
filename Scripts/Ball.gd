@@ -5,13 +5,16 @@ export var minspeed = 200
 
 signal score
 signal lives
+signal shake
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	contact_monitor = true
 	set_max_contacts_reported(4)
 	var WorldNode = get_node("/root/World")
+	var CameraNode = get_node("/root/World/Camera2D")
 	connect("score", WorldNode, "increase_score")
 	connect("lives", WorldNode, "decrease_lives")
+	connect("shake", CameraNode, "start")
 	
 func _physics_process(delta):
 	if (linear_velocity.length() > maxspeed):
@@ -25,6 +28,7 @@ func _physics_process(delta):
 		if body.is_in_group("Tiles"):
 			emit_signal("score", body.score)
 			body.queue_free()
+			emit_signal("shake")
 		elif body.is_in_group("Powerups"):
 			print("POWER UP")
 			
