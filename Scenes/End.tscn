@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Assets/Sabo-Filled.otf" type="DynamicFontData" id=1]
-[ext_resource path="res://Scripts/RestartButton.gd" type="Script" id=2]
-[ext_resource path="res://Assets/buttonDefault.png" type="Texture" id=3]
+[ext_resource path="res://Scripts/Label.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/RestartButton.gd" type="Script" id=3]
+[ext_resource path="res://Assets/buttonDefault.png" type="Texture" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 60
@@ -22,9 +23,10 @@ custom_fonts/font = SubResource( 1 )
 text = "GAME OVER"
 align = 1
 valign = 1
+script = ExtResource( 2 )
 
 [node name="RestartButton" type="Control" parent="."]
-script = ExtResource( 2 )
+script = ExtResource( 3 )
 
 [node name="Button" type="Button" parent="RestartButton"]
 margin_left = 420.0
@@ -35,7 +37,7 @@ margin_bottom = 393.514
 [node name="Sprite" type="Sprite" parent="RestartButton"]
 position = Vector2( 520.232, 368.418 )
 scale = Vector2( 1.05314, 1 )
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
 
 [node name="Label" type="Label" parent="RestartButton"]
 margin_left = 420.184

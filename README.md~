@@ -1,6 +1,5 @@
-# 08-Breakout
+# 09-Juicy-Breakout
 
-Using Godot to recreate the classic arcade game Breakout. The in-game physics are calculated using the Godot game engine. I used various scripts to create the effect of balls breaking tiles and increasing the player's score. The player has three lives, and one life is lost each time the player has lost all the balls. There is also one powerup that allows the player to create two balls.
+Added camera shake, trailing paths, and audio effects to the classic game of Breakout.
 
-
-Sprites were a courtesy of kenney.nl
+Sprites are a courtesy of kenney.nl, and audio is sourced from freesound.org.

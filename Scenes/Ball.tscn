@@ -1,11 +1,15 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scripts/Ball.gd" type="Script" id=1]
-[ext_resource path="res://Assets/ballGrey.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/LineTrail.gd" type="Script" id=2]
+[ext_resource path="res://Assets/ballGrey.png" type="Texture" id=3]
 
-[sub_resource type="PhysicsMaterial" id=3]
+[sub_resource type="PhysicsMaterial" id=1]
 friction = 0.0
 bounce = 1.0
+
+[sub_resource type="Gradient" id=3]
+colors = PoolColorArray( 1, 0, 0, 0, 1, 0, 0, 1 )
 
 [sub_resource type="CircleShape2D" id=2]
 radius = 11.7798
@@ -13,7 +17,7 @@ radius = 11.7798
 [node name="Ball" type="RigidBody2D"]
 position = Vector2( 500, 530 )
 mode = 2
-physics_material_override = SubResource( 3 )
+physics_material_override = SubResource( 1 )
 gravity_scale = 0.0
 linear_velocity = Vector2( 200, -200 )
 linear_damp = 0.0
@@ -23,8 +27,14 @@ __meta__ = {
 "_edit_group_": true
 }
 
+[node name="LineTrail" type="Line2D" parent="."]
+width = 20.0
+gradient = SubResource( 3 )
+texture_mode = 1879061760
+script = ExtResource( 2 )
+
 [node name="Sprite" type="Sprite" parent="."]
-texture = ExtResource( 2 )
+texture = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 2 )

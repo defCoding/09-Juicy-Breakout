@@ -1,9 +1,11 @@
 extends Area2D
 
+onready var PowerupSound = get_node("/root/World/PowerupAudio")
 var new_ball = preload("res://Scenes/Ball.tscn")
 
 func _on_Powerup_body_entered(body):
 	if "Ball" in body.name:
+		PowerupSound.play()
 		queue_free()
 		var ball = new_ball.instance()
 		ball.position = body.position
