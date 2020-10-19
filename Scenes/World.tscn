@@ -41,7 +41,6 @@ __meta__ = {
 polygon = PoolVector2Array( 0, 620, 0, 0, 1030, 0, 1030, 620, 1050, 620, 1050, -20, -20, -20, -20, 620 )
 
 [node name="Paddle" type="KinematicBody2D" parent="."]
-editor/display_folded = true
 position = Vector2( 500, 573.361 )
 script = ExtResource( 2 )
 __meta__ = {
@@ -65,7 +64,6 @@ shape = SubResource( 1 )
 [node name="Tile" type="StaticBody2D" parent="Tiles/Grey Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 220, 390 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -81,7 +79,6 @@ shape = SubResource( 2 )
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Grey Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 290, 390 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -97,7 +94,6 @@ shape = SubResource( 2 )
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Grey Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 360, 390 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -113,7 +109,6 @@ shape = SubResource( 2 )
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Grey Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 430, 390 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -129,7 +124,6 @@ shape = SubResource( 2 )
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Grey Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 500, 390 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -145,7 +139,6 @@ shape = SubResource( 2 )
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Grey Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 570, 390 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -161,7 +154,6 @@ shape = SubResource( 2 )
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Grey Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 640, 390 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -177,7 +169,6 @@ shape = SubResource( 2 )
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Grey Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 710, 390 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -193,7 +184,6 @@ shape = SubResource( 2 )
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Grey Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 780, 390 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -207,12 +197,10 @@ texture = ExtResource( 5 )
 shape = SubResource( 2 )
 
 [node name="Red Tiles" type="Node" parent="Tiles"]
-editor/display_folded = true
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Red Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 220, 350 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -228,7 +216,6 @@ shape = SubResource( 2 )
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Red Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 290, 350 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -244,7 +231,6 @@ shape = SubResource( 2 )
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Red Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 360, 350 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -260,7 +246,6 @@ shape = SubResource( 2 )
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Red Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 430, 350 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -276,7 +261,6 @@ shape = SubResource( 2 )
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Red Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 500, 350 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -292,7 +276,6 @@ shape = SubResource( 2 )
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Red Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 570, 350 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -308,7 +291,6 @@ shape = SubResource( 2 )
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Red Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 640, 350 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -324,7 +306,6 @@ shape = SubResource( 2 )
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Red Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 710, 350 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -340,7 +321,6 @@ shape = SubResource( 2 )
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Red Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 780, 350 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -354,12 +334,10 @@ texture = ExtResource( 5 )
 shape = SubResource( 2 )
 
 [node name="Yellow Tiles" type="Node" parent="Tiles"]
-editor/display_folded = true
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Yellow Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 220, 310 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -375,7 +353,6 @@ shape = SubResource( 2 )
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Yellow Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 290, 310 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -391,7 +368,6 @@ shape = SubResource( 2 )
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Yellow Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 360, 310 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -407,7 +383,6 @@ shape = SubResource( 2 )
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Yellow Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 430, 310 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -423,7 +398,6 @@ shape = SubResource( 2 )
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Yellow Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 500, 310 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -439,7 +413,6 @@ shape = SubResource( 2 )
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Yellow Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 570, 310 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -455,7 +428,6 @@ shape = SubResource( 2 )
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Yellow Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 640, 310 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -471,7 +443,6 @@ shape = SubResource( 2 )
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Yellow Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 710, 310 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -487,7 +458,6 @@ shape = SubResource( 2 )
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Yellow Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 780, 310 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -501,12 +471,10 @@ texture = ExtResource( 5 )
 shape = SubResource( 2 )
 
 [node name="Green Tiles" type="Node" parent="Tiles"]
-editor/display_folded = true
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Green Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 220, 270 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -522,7 +490,6 @@ shape = SubResource( 2 )
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Green Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 290, 270 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -538,7 +505,6 @@ shape = SubResource( 2 )
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Green Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 360, 270 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -554,7 +520,6 @@ shape = SubResource( 2 )
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Green Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 430, 270 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -570,7 +535,6 @@ shape = SubResource( 2 )
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Green Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 500, 270 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -586,7 +550,6 @@ shape = SubResource( 2 )
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Green Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 570, 270 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -602,7 +565,6 @@ shape = SubResource( 2 )
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Green Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 640, 270 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -618,7 +580,6 @@ shape = SubResource( 2 )
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Green Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 710, 270 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -634,7 +595,6 @@ shape = SubResource( 2 )
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Green Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 780, 270 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -648,12 +608,10 @@ texture = ExtResource( 5 )
 shape = SubResource( 2 )
 
 [node name="Blue Tiles" type="Node" parent="Tiles"]
-editor/display_folded = true
 
 [node name="Tile" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 220, 230 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -669,7 +627,6 @@ shape = SubResource( 2 )
 [node name="Tile2" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 290, 230 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -685,7 +642,6 @@ shape = SubResource( 2 )
 [node name="Tile3" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 360, 230 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -701,7 +657,6 @@ shape = SubResource( 2 )
 [node name="Tile4" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 430, 230 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -717,7 +672,6 @@ shape = SubResource( 2 )
 [node name="Tile5" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 500, 230 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -733,7 +687,6 @@ shape = SubResource( 2 )
 [node name="Tile6" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 570, 230 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -749,7 +702,6 @@ shape = SubResource( 2 )
 [node name="Tile7" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 640, 230 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -765,7 +717,6 @@ shape = SubResource( 2 )
 [node name="Tile8" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 710, 230 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -781,7 +732,6 @@ shape = SubResource( 2 )
 [node name="Tile9" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 780, 230 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -797,7 +747,6 @@ shape = SubResource( 2 )
 [node name="Tile10" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 430, 150 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -813,7 +762,6 @@ shape = SubResource( 2 )
 [node name="Tile11" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 500, 150 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -829,7 +777,6 @@ shape = SubResource( 2 )
 [node name="Tile12" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 570, 150 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -845,7 +792,6 @@ shape = SubResource( 2 )
 [node name="Tile13" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 570, 110 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -861,7 +807,6 @@ shape = SubResource( 2 )
 [node name="Tile14" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 570, 70 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -877,7 +822,6 @@ shape = SubResource( 2 )
 [node name="Tile15" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 500, 70 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -893,7 +837,6 @@ shape = SubResource( 2 )
 [node name="Tile16" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 430, 70 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -909,7 +852,6 @@ shape = SubResource( 2 )
 [node name="Tile17" type="StaticBody2D" parent="Tiles/Blue Tiles" groups=[
 "Tiles",
 ]]
-editor/display_folded = true
 position = Vector2( 430, 110 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -951,7 +893,6 @@ __meta__ = {
 [node name="Powerup" type="Area2D" parent="Powerups" groups=[
 "Powerups",
 ]]
-editor/display_folded = true
 position = Vector2( 930, 430 )
 script = ExtResource( 9 )
 __meta__ = {
@@ -966,7 +907,6 @@ texture = ExtResource( 10 )
 polygon = PoolVector2Array( -0.365906, -17.3826, 18.2207, 0.0998535, 0.55426, 17.7663, -18.0323, 0.283875 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
-editor/display_folded = true
 position = Vector2( 517.5, 300 )
 current = true
 script = ExtResource( 11 )
